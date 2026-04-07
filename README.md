@@ -1,6 +1,6 @@
-# 💰 Finance Backend System
+# Finance Backend System
 
-## 🚀 Overview
+## Overview
 
 This project is a backend system for managing financial records with role-based access control.
 
@@ -12,9 +12,9 @@ It allows users to:
 
 ---
 
-## 🧠 Features
+##  Features
 
-### 👤 User Management
+### User Management
 
 * Create users with roles:
 
@@ -22,7 +22,7 @@ It allows users to:
   * Analyst
   * Admin
 
-### 💰 Financial Records
+### Financial Records
 
 * Create, view records
 * Filter by:
@@ -31,14 +31,14 @@ It allows users to:
   * Category
 * Pagination support
 
-### 📊 Dashboard Analytics
+### Dashboard Analytics
 
 * Total Income
 * Total Expenses
 * Net Balance
 * Category-wise summary
 
-### 🔐 Role-Based Access Control
+### Role-Based Access Control
 
 * Viewer → read-only
 * Analyst → read + analytics
@@ -46,7 +46,7 @@ It allows users to:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * Flask
@@ -55,7 +55,7 @@ It allows users to:
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone repo
 
@@ -84,25 +84,25 @@ python app.py
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
-### 👤 Users
+### Users
 
 * POST /users → Create user
 
-### 💰 Records
+### Records
 
 * POST /records → Create record (Admin)
 * GET /records → Get records (All roles)
 
-### 📊 Dashboard
+### Dashboard
 
 * GET /dashboard → Summary (Admin, Analyst)
 * GET /dashboard/categories → Category totals
 
 ---
 
-## 🔑 Authentication (Simplified)
+## Authentication (Simplified)
 
 Role is passed via headers:
 
@@ -114,7 +114,7 @@ role: admin
 
 ---
 
-## 🧠 Design Decisions
+## Design Decisions
 
 * Used SQLite for simplicity and fast setup
 * Modular structure (routes, utils, config)
@@ -123,7 +123,7 @@ role: admin
 
 ---
 
-## ✨ Future Improvements
+## Future Improvements
 
 * JWT Authentication
 * User login system
@@ -133,6 +133,6 @@ role: admin
 
 ---
 
-## 📌 Author
+## Author
 
 Komal
